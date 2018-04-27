@@ -17,7 +17,7 @@ import es.alfa.centauri.SpringBootIoT.user.UserRepository;
 @RestController
 @RequestMapping(value="/api/user")
 public class UserController {
-	
+		
 	@Autowired
 	UserRepository userRepository;
 	
